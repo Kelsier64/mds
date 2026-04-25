@@ -9,11 +9,11 @@
 - 如何用Markdown寫筆記（現在的筆記就是用markdown撰寫）
 
 能力則有
-- 領導能力：統籌資安高手進行專案開發
-- 高效率開發能力：24小時極限產出原型
+- 領導能力：統籌資安高手隊友進行專案開發
+- 高效率開發能力：12小時極限產出原型
 - 團隊溝通能力：橋接攻擊組與開發組需求
 
-![20240824_011730](https://hackmd.io/_uploads/H1swiwTp1l.jpg)
+![upload_950b5271236bebb116ef077853ebf7eb](https://hackmd.io/_uploads/Hys_h0y6Wg.jpg)
 
 ## 契機與伏筆
 高二下學期，我因研究自製全端網站而對資安產生興趣，於是報名了 AIS3 Junior。出發前一週，我想說提前熟悉linux就把筆電系統全刪換成 Linux Ubuntu，沒想到這個決定差點要了我的命。
@@ -77,8 +77,7 @@ ctf:catch the flag 是一種資安活動 一般是把一段密碼flag藏在系�
 #### 半夜解題
 直接跳轉到晚上，我題目只寫了一半，解題報告更是完全沒有寫，於是我開始跟室友共享資料，然後繼續往下破解題目，但只有一個室友比較給力，他破出來了一題，然後我破了3題
 
-我就這樣跟一位室友一起解題到半夜四點多，過程中發現ctf挺有趣的，而且有很高的成就感，讓我想一題接著一題的往下寫，最後甚至睡覺的時候還在想題目，然後隔天早上突然想通並打上了排行前10
-![Screenshot_20250404_221205_Instagram](https://hackmd.io/_uploads/BkwpKvTT1e.jpg)
+我就這樣跟一位室友一起解題到半夜四點多，過程中發現ctf挺有趣的，而且有很高的成就感，讓我想一題接著一題的往下寫，最後甚至睡覺的時候還在想題目，然後隔天早上突然想通並打上了排行榜第七名
 
 ### day3莫名奇妙的日出 -減陽壽做專題
 這天的課程是上午把昨天的ai資安教完，下午讓我們討論專題跟實作專題
@@ -153,4 +152,4 @@ ctf:catch the flag 是一種資安活動 一般是把一段密碼flag藏在系�
 
 我的網路安全筆記:[https://hackmd.io/@Kelsier-64/HkNsEUMDke](https://hackmd.io/@Kelsier-64/HkNsEUMDke)
 我的AI安全筆記:[https://hackmd.io/@Kelsier-64/ByRKzUfPJg](https://hackmd.io/@Kelsier-64/ByRKzUfPJg)
-完整筆記:
+完整筆記:[https://hackmd.io/@Kelsier-64/H1XWMe3sWl](https://hackmd.io/@Kelsier-64/H1XWMe3sWl)
