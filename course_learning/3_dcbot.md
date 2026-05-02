@@ -198,7 +198,7 @@ Gather是一個更進一步的工具，它返回一個叫future的東西。Gathe
 
 - **slash command**
 slash command是discord 最新的api功能，可以把指令註冊進discord群組，一般來說我們使用dc bot都要像終端那樣打指令，而為了區分一般訊息跟指令，一般我們都會用前綴，而slash command就是使用`/`前綴，不同的是他會跳出快捷提示如下圖，而不用自己打完整個指令。
-![1000028518](https://hackmd.io/_uploads/SJ6MJ-LF1x.jpg)
+<img src="https://hackmd.io/_uploads/SJ6MJ-LF1x.jpg" alt="1000028518" width="400">
 
 
 ## 系統架構與技術流程
@@ -340,12 +340,12 @@ def str_request(messages, max_tokens):
 ---
 
 ## 成果展示
-![1000028728](https://hackmd.io/_uploads/S1cWxgQ51e.jpg)
+<img src="https://hackmd.io/_uploads/S1cWxgQ51e.jpg" alt="1000028728" width="400">
 
 這裡首先我首先重新載入了gpt模組，bot也顯示重新載入成功，接下來我測試了基礎回覆功能，以及圖片功能
 
 
-![1000028729](https://hackmd.io/_uploads/SkXzxem5yl.jpg)
+<img src="https://hackmd.io/_uploads/SkXzxem5yl.jpg" alt="1000028729" width="400">
 
 
 
