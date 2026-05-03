@@ -1,8 +1,8 @@
-# 聊天機器人
+# 通訊軟體ai機器人與asyncio學習筆記
  
 **科目**：工程設計
 **學生**：杜凱朗
-**授課老師**：楊肅義
+**授課老師**：楊肅毅
 
 我們這學期資訊課的期末作業是個人專題實作，我利用上課所學到的知識，完成了一個線上ai聊天機器人。
 
@@ -121,7 +121,6 @@ async def api_request(delay,say):
 async def main():
     task1 = asyncio.create_task(api_request(1,"hello"))
     task2 = asyncio.create_task(api_request(2,"world"))
-    
     await task1
     await task2
     
@@ -299,7 +298,6 @@ class Gpt(commands.Cog):
     async def on_message(self, message: nextcord.Message):
         if message.author == self.bot.user or not self.gpt_state:
             return
-        
         # 偵測附件
         if message.attachments:
             # 處理圖片：下載 -> base64 -> 傳給 GPT
@@ -309,7 +307,6 @@ class Gpt(commands.Cog):
                 {"role": "system", "content": f"以下是對話歷史記錄:{self.history}"},
                 {"role": "user", "content": f"以下是最新訊息： time:{time} author:{message.author} message:{message.content}"}
             ]
-        
         # 呼叫 AzureOpenAI
         reply = str_request(msgs, 500)
         # 儲存回覆
@@ -385,6 +382,5 @@ def str_request(messages, max_tokens):
 
 碼農高天asyncio：[https://youtu.be/brYsDi-JajI?si=h6vpw5qQXDUHPdP6](https://youtu.be/brYsDi-JajI?si=h6vpw5qQXDUHPdP6)
 asyncio官方文檔：[https://docs.python.org/zh-tw/3.13/library/asyncio.html](https://docs.python.org/zh-tw/3.13/library/asyncio.html)
-discord bot：[https://www.youtube.com/watch?v=x7oBQNcNGeM&list=PLwqYQaS6jxfk_NCetUOyNRDGAf9_kU90n](https://www.youtube.com/watch?v=x7oBQNcNGeM&list=PLwqYQaS6jxfk_NCetUOyNRDGAf9_kU90n)
-我的hackmd筆記：[https://hackmd.io/@kK5H814JR42oDRJJ0hJM6w/r16yhNkt1g](https://hackmd.io/@kK5H814JR42oDRJJ0hJM6w/r16yhNkt1g)
+discord bot教學：[https://www.youtube.com/watch?v=x7oBQNcNGeM&list=PLwqYQaS6jxfk_NCetUOyNRDGAf9_kU90n](https://www.youtube.com/watch?v=x7oBQNcNGeM&list=PLwqYQaS6jxfk_NCetUOyNRDGAf9_kU90n)
 專案github repo：[https://github.com/Kelsier64/gpt_discord_bot](https://github.com/Kelsier64/gpt_discord_bot) 
